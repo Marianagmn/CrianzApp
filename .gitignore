@@ -1,0 +1,42 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datos: nunca datos reales, exportaciones ni bases locales
+data/
+exports/
+*.sqlite3
+*.db
+*.dump
+*.csv
+!tests/**/fixtures/*.csv
+
+# Índice vectorial y artefactos generados
+vectorstore/
+evaluation/results/
+uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
