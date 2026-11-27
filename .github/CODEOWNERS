@@ -1,0 +1,25 @@
+# Dueños por área (ver docs/plan/plan-de-trabajo.md §2).
+# Cada PR requiere la revisión del dueño del área que toca.
+
+# Por defecto: ambos
+*                                         @Marianagmn @Criss190
+
+# IA y visual computing — Mariana
+/src/crianzapp/application/assistant/     @Marianagmn
+/src/crianzapp/infrastructure/knowledge/  @Marianagmn
+/src/crianzapp/infrastructure/llm/        @Marianagmn
+/evaluation/                              @Marianagmn
+/tests/conversation/                      @Marianagmn
+/docs/ia/                                 @Marianagmn
+
+# Ciberseguridad — Julián
+/src/crianzapp/application/identity/      @Criss190
+/src/crianzapp/application/privacy/       @Criss190
+/src/crianzapp/application/audit/         @Criss190
+/src/crianzapp/presentation/auth/         @Criss190
+/tests/authz/                             @Criss190
+/tests/security/                          @Criss190
+/docs/seguridad/                          @Criss190
+/.github/workflows/                       @Criss190
+/SECURITY.md                              @Criss190
+/.github/CODEOWNERS                       @Criss190 @Marianagmn
